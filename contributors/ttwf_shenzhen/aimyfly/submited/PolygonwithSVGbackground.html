@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Polygon with SVG background</title>
+    <link rel="author" title="aimyfly" href="mailto:aimyfly@126.com">
+    <link rel="help" href="http://www.w3.org/TR/compositing-1/">
+    <link rel="help" href="additional spec link">
+    <link rel="match" href="reference/PolygonwithSVGbackground-ref.html">
+    <meta name="assert" content="Test Polygon with SVG background">
+    <style type="text/css">
+        #testCon{ background:#66cfdd; width:200px; height:200px; }
+		#poly{fill:red;stroke:#cfcfcf;stroke-width:1px; mix-blend-mode:overlay; }
+		
+    </style>
+</head>
+<body>
+    <svg id="testCon"">
+  <polygon id="poly" points="60,30 120,30 150,75 120,120 60,120 30,75"/>
+</svg>
+</body>
+</html>
